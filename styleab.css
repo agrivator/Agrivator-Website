@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: sans-serif;
+}
+.container
+{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin: 240px ;
+    border-color: #000;
+    border-image: #000;
+    float: left;
+    margin:100px;
+    box-sizing: border-box;
+    
+
+    background: #000;
+}
+.container .box{
+    position: relative;
+    border-radius: 10px;
+    border-color: aqua;
+    display: block;
+
+}
+.container .box p{
+    color: #fff;
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    
+}
+ .container .box .slider{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    background: url(1.jpg);
+    margin-left: 500px;
+    
+     
+    animation: slide 15s infinite;
+     
+    
+}
+@keyframes slide{
+    25%{
+        background: url(2.jpg);
+    }
+    50%{
+        background: url(3.jpg);
+    }
+    75%{
+        background: url(4.jpg);
+    }
+    100%{
+        background: url(1.jpg);
+    }
+}
