@@ -1,0 +1,51 @@
+/* ----- Variables ----- */
+
+/* ----- Global ----- */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
+li{
+    list-style: none;
+		}
+
+.pr-card{
+	margin: 0px;
+}
+.product-section{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+@media (max-width: 700px) {
+	.product-section{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.pr-card{
+		width: 100%;
+	}
+  }
+  
+.section-head{
+	font-size: 50px;
+	color: white;
+	font-weight: 900;
+	text-align: center;
+}
+.agri-description{
+	font-size: 25px;
+	color: white;
+	font-weight: 600;
+}
+.product-head{
+	background: url("../img/agri.jpg");
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	height: auto;
+	max-width: 100%;
+}
