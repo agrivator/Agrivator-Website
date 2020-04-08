@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 .jumbotron {
   background-color: #78b122; 
   color: #ffffff;
