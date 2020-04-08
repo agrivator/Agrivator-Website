@@ -1,0 +1,165 @@
+body
+{
+   
+    background-size: cover;
+    background-position: center;
+    background: #81c644;
+    font-family: 'Josetin Sans',sans-serif;
+  
+}
+
+	
+}
+.container
+{
+    margin-top: 2%;
+}
+
+.team
+{
+    display: flex;
+	flex-direction:row;
+	margin-bottom:25px;
+  
+  text-align: center;
+}
+	
+  
+
+
+	
+
+
+.farm3
+{
+   
+    background: #fff;
+    margin: 15px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+  position: relative;
+}
+.h3
+{
+    
+    font-size: 26px;
+    
+     
+	
+}
+
+
+.img_farm3
+{
+	
+	width:50%;
+	height:59%;
+	border-radius:25%;
+	position:absolute;
+	top=-50px;
+	left:50%;
+	transform:translateX(-50%);
+}
+.img_farm3 img
+{
+    width: 50%;
+    height: 50%;
+    background: #fff;
+    
+}
+.img_farm3 img{
+    width: 50%;
+    height: 50%;
+    background: #fff;
+}
+.img_farm3 img{
+    width: 264px;
+    height: 180px;
+    background: #fff;
+}
+.btn
+{
+	min-width:150px;
+	padding:15px 10px;
+	margin:20px;
+	background:rgb(214,214,214);
+	border:none;
+	border-radius:25px:
+	
+	color:green;
+	font-size:15px;
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	box-shadow:-7px -7px 20px 0 rgba(255,255,255,0.7),7px 7px 20px 0 rgba(0,0,0,0.2);
+	position:bottom-right;
+}
+.btn:hover{
+	box-shadow:inset -7px -7px 20px 0 rgba(255,255,255,0.7),inset 7px 7px 20px 0 rgba(0,0,0,0.2);
+}
+  
+
+/* Full-width input fields */
+  input[type=text],  {
+  width: 25%;
+  padding: 15px;
+  margin: 5px 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,  {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 50px;
+}
+
+/* Set a style for all buttons */
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 7px 10px;
+  margin: 4px 0;
+  border: none;
+  cursor: pointer;
+  width: 25%;
+  opacity: 0.9;
+}
+
+button:hover {
+  box-shadow:inset -7px -7px 20px 0 rgba(255,255,255,0.7),inset 7px 7px 20px 0 rgba(0,0,0,0.2);
+}
+
+/* Extra styles for the cancel button */
+.signupbtn.resetbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+ .signupbtn {
+  float: left;
+  width: 50%;
+ }
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+   .resetbtn.signupbtn {
+    width: 50%;
+  }
+}
