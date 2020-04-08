@@ -29,20 +29,10 @@ body
 
 	
 
-<!--.icon
-{
-    font-size: 40px;
-    margin: 20px auto;
-    padding: 20px;
-    height: 80px;
-    width: 80px;
-    border: 1px solid white;
-    border-radius: 50%;
-}-->
+
 .farm3
 {
-   <!--box-shadow: 5px 7px 9px -3px rgba(255,255,255,0.5);
-    cursor: pointer;-->
+   
     background: #fff;
     margin: 15px;
     margin-bottom: 50px;
@@ -98,7 +88,7 @@ body
 	background:rgb(214,214,214);
 	border:none;
 	border-radius:25px:
-	<!--color:rgb(50,207,207);-->
+	
 	color:green;
 	font-size:15px;
 	font-weight:bold;
