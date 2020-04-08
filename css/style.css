@@ -1,0 +1,73 @@
+/* ----- Variables ----- */
+
+/* ----- Global ----- */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	overflow-x: hidden;
+}
+li{
+    list-style: none;
+		}
+
+.pr-card{
+	margin: 0px;
+}
+.product-section{
+	margin-left: 60px;
+	margin-right: 60px;
+}
+
+  
+.section-head{
+	font-size: 50px;
+	color: white;
+	font-weight: 900;
+}
+.air-head{
+	font-size: 50px;
+	color: black;
+	font-weight: 900;
+}
+.agri-description{
+	font-size: 25px;
+	color: white;
+	font-weight: 600;
+}
+.air-description{
+	font-size: 25px;
+	color: black;
+	font-weight: 400;
+}
+.product-head{
+	background-color: #ffbf55;
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	height: auto;
+	max-width: 100%;
+}
+.air-image{
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.air-product-image{
+	width: 100px;
+	height: 100px;
+}
+.product-name{
+	font-weight: 700;
+}
+@media (max-width: 700px) {
+	.product-section{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.pr-card{
+		width: 100%;
+	}
+  }
