@@ -1,163 +1,95 @@
-body
-{
-   
-    background-size: cover;
-    background-position: center;
-    background: #81c644;
-    font-family: 'Josetin Sans',sans-serif;
-  
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing:border-box;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+    position: relative;
+    min-height: 1px;
 }
 
-.container
-{
-    margin-top: 2%;
-}
-
-.team
-{
-    display: flex;
-	flex-direction:row;
-	margin-bottom:25px;
-  
-  text-align: center;
-}
-	
-  
-
-
-	
-
-
-.farm3
-{
-   
-    background: #fff;
-    margin: 15px;
-    margin-bottom: 50px;
-    width: 300px;
-    padding: 20px;
-    line-height: 20px;
-    color: #8e8b8b;
-  position: relative;
-}
-.h3
-{
+.team{
+    min-height: 100vh;
+    padding: 60px 15px;
+    background-color: #ffffff;
+    float: left;
+    width: 100%;
     
-    font-size: 26px;
-    
-     
-	
 }
-
-
-.img_farm3
-{
-	
-	width:50%;
-	height:59%;
-	border-radius:25%;
-	position:absolute;
-	top:-50px;
-	left:50%;
-	transform:translateX(-50%);
+.team h1{
+    font-size: 36px;
+    font-family: open sans;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+    padding-bottom: 60px;
+    text-align: center;
 }
-.img_farm3 img
-{
-    width: 50%;
+.team .card{
+    width: 25%;
     height: 50%;
-    background: #fff;
+    float: left;
+    padding: 0px 15px;
     
 }
-.img_farm3 img{
-    width: 50%;
-    height: 50%;
-    background: #fff;
+.team .card .box {
+    padding: 15px;
+   background-color: #ffffff;
+    background-image: linear-gradient(170deg,#ffffff,#78b122);
+    position: relative;
+    border-radius: 5px;
+    transition: margin 1s ease,box-shadow 1s ease;
 }
-.img_farm3 img{
-    width: 264px;
-    height: 180px;
-    background: #fff;
+.team .card .box:hover{
+    margin-top: -15px;
+    box-shadow: 0px 0px 40px #538742;
 }
-.btn
-{
-	min-width:150px;
-	padding:15px 10px;
-	margin:20px;
-	background:rgb(214,214,214);
-	border:none;
-	border-radius:25px;
-	
-	color:green;
-	font-size:15px;
-	font-weight:bold;
-	text-transform:uppercase;
-	letter-spacing:2px;
-	box-shadow:-7px -7px 20px 0 rgba(255,255,255,0.7),7px 7px 20px 0 rgba(0,0,0,0.2);
-	position:bottom-right;
+.team .card .box img{
+    width: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
 }
-.btn:hover{
-	box-shadow:inset -7px -7px 20px 0 rgba(255,255,255,0.7),inset 7px 7px 20px 0 rgba(0,0,0,0.2);
+.team .card .box h4{
+    font-size: 20px;
+    font-family: open sans;
+    margin: 15px 0px 10px;
+    color: #faa422;
+    text-align: center;
+    font-weight: 700;
+    
+        
 }
-  
-
-/* Full-width input fields */
-  input[type=text]  {
-  width: 25%;
-  padding: 15px;
-  margin: 5px 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+.team .card .box h5{
+    font-size: 16px;
+    font-family: open sans;
+    font-weight: 600;
+    color: #2f2e41;
+    margin: 0px 0px 15px;
+    text-align: center;
 }
-
-input[type=text]:focus  {
-  background-color: #ddd;
-  outline: none;
+.team .card .box p{
+    color: #2f2e41;
+    font-size: 15px;
+    font-family: open sans;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 20px;
 }
-
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 50px;
+@media(max-width: 991px){
+    .team .card{
+        width: 50%;
+        margin-bottom: 30px;
+    }
 }
-
-/* Set a style for all buttons */
-.button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 7px 10px;
-  margin: 4px 0;
-  border: none;
-  cursor: pointer;
-  width: 25%;
-  opacity: 0.9;
-}
-
-button:hover {
-  box-shadow:inset -7px -7px 20px 0 rgba(255,255,255,0.7),inset 7px 7px 20px 0 rgba(0,0,0,0.2);
-}
-
-/* Extra styles for the cancel button */
-.signupbtn.resetbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
- .signupbtn {
-  float: left;
-  width: 50%;
- }
-
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-   .resetbtn.signupbtn {
-    width: 50%;
-  }
+@media(max-width: 550px){
+    .team .card{
+        width: 100%;
+    }
 }
