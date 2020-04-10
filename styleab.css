@@ -3,27 +3,37 @@ body{
     padding: 18px;
     background: #fff;
     font-family: sans-serif;
+	overflow-x:hidden;
+
+	
 }
+
 h1{
     color:#538742;
     text-align: center;
     padding-top: 30px;
     font-family: sans-serif;
 }
+.psize{
+	display:flex;
+}
 .container
 {
     position: relative;
     width: 400px;
     height: 500px;
-    margin: 240px ;
-  
+   
+    max-width:500px;
     float: left;
     margin:100px;
     box-sizing:border-box;
-    display: flex;
+  /*  display: flex;*/
     
 }
  
+ .container-md, .container-sm{
+	 max-width:500px;
+ }
 .box1{
     position: relative;
     border-radius: 3px;
@@ -31,7 +41,7 @@ h1{
     display: block;
     width: 500px;
     height: 400px;
-    margin-left: 30px;
+   max-width:500px;
     background: #000;
     box-sizing: border-box;
 
@@ -49,9 +59,9 @@ h1{
     height: 300px;
     border-radius: 10px;
     background: url(1.jpg);
-    margin-left: 600px;
-    padding-left:400px; 
+  padding-right:281px;
      margin-top: 200px;
+	overflow-x:hidden;
   animation: slide 15s infinite;
      
     
