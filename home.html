@@ -134,6 +134,21 @@
   </div>
 </div>
 
+<div  class="googleMap" id="googleMap" style="width: 400px;height:300px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(8.8659 , 76.6709),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+
 <div class="footer">
 <footer class="text-center">
   <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
@@ -152,15 +167,16 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">
-        Logo
+        <div class="logo">
+       <img src="img/agri_logo1.png"></div>
       </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#team">TEAM</a></li>
-        <li><a href="#vision">VISION</a></li>
+        <li><a href="team.html">TEAM</a></li>
+        <li><a href="vision.html">VISION</a></li>
         <li><div class="dropdown">
-          <button class="dropbtn">PRODUCTS
+          <button class="dropbtn" onclick="products.html">PRODUCTS
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
@@ -168,10 +184,13 @@
             <a href="#">Air Farmers</a>
           </div>
         </div></li>
-        <li><a href="#flash">FLASH</a></li>
-        <li><a href="#services">SERVICES</a></li>
+        <li><a href="DeliveryPage.html">FLASH</a></li>
+        <li><a href="services.html">SERVICES</a></li>
         <li><a href="#contact">CONTACT</a></li>
-        <li><a href="#cart"><div class="cart">Cart </div></a></li>
+        <li><a href="#cart"><div class="cart">
+        <img src="img/dropbox.png">  
+        </div></a></li>
+
         
       </ul>
     </div>
@@ -216,4 +235,5 @@
   </script>
 
 </body>
+
 </html>

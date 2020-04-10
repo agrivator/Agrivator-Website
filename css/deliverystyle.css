@@ -1,0 +1,25 @@
+
+/* Modify the backgorund color */ 
+.navbar-custom { 
+    background-color: #538742; 
+} 
+
+
+.btn-custom{
+    background-color: #78b122; 
+}
+
+.btn-custom1{
+    background-color: #000000; 
+    color: #ffffff;
+}
+
+.ftr-custom{
+    background-color: #2f2e41; 
+}
+
+.btn-gototop
+{
+    background-color: #faa422;
+    color: #000000; 
+}
