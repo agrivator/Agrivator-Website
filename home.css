@@ -207,7 +207,12 @@
     top: -15px;
     left: -85px;
   }
-
+  
+  .cart{
+    position: relative;
+    top: -3px;
+    left: 0px;
+  }
 
   /* Dropdown container - needed to position the dropdown content */
 .dropdown {
