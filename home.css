@@ -3,41 +3,18 @@
 .jumbotron {
   background-color: #78b122; 
   color: #ffffff;
-  padding: 250px;
+  padding: 150px;
   width: 100%;
+  align-self: auto;
 }
 
-  
-  /* Position text in the middle of the page/image */
-  
-
-  .vid {
-    position: relative;
-    top: 100px;
-    left: 30%;
-  }
-
-  .c1 {
-    padding: 60px 50px;
-    position: relative;
-    top: 250px;
-    left: 10%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-
-  .c2 {
-    position: relative;
-    top: 00px;
-    left: 50%;
-  }
 
   .panel {
     border: 1px solid #538742;
     border-radius:0;
     transition: box-shadow 0.5s;
-    position: relative;
-    top: 150px;
-    left: 300px;
+
+    align-items: center;
   }
   
   .panel:hover {
@@ -146,6 +123,8 @@
     background-image: url(img/contact.jpg) ;
     
   }
+
+  
 
   .googleMap{
     position: relative;
