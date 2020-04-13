@@ -1,8 +1,4 @@
 
-
-
-
-
 .mytxt
 {
     /* background-color: #faa422; */
@@ -21,10 +17,10 @@
 
   .text1{
     vertical-align: middle;
-    padding-bottom: 40px;
-    padding-left: 100px;
+    /* padding-bottom: 40px; */
+    /* padding-left: 25%; */
   }
 
 .qr{
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
