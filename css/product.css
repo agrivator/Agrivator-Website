@@ -104,6 +104,21 @@ li{
 	outline: 0;
 	box-shadow: 0 0 0 0.2rem #78b122;
   }
+  .navbar-1 {
+    margin-bottom: 0;
+    background-color: #fff;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #538742!important;
+  }
+  
 /* Small devices (landscape phones, 576px and up)*/
 @media (max-width: 576px) { 
 	.buy-btn{
