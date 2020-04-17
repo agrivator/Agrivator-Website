@@ -1,203 +1,162 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>AGRIVATOR</title>
+<title>AGRIVATOR</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="css/product.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ 
+<style>
+ #para1{
+  text-align:center;
+  margin-bottom:4%;
+  color:green;
+  mardin-top:10%;
+ }
 
-  <style>
-    #para1 {
-      text-align: center;
-      margin-bottom: 4%;
-      color: green;
-      /* margin-top: 25%; */
-    }
+div.gallery {
+  border: 5px solid #ccc;
+  margin-top:0.5px;
+  margin-left:25px;
+  margin-bottom:2px;  
+  width:200px;
+  
+  
+}
 
-    div.gallery {
-      border: 5px solid #ccc;
-      margin-top: 0.5px;
+div.gallery:hover {
+  border: 1px solid #777;
+}
 
+div.gallery img {
+  width: 100%;
+  height: 120px;
+ 
+}
 
+div.desc {
+  padding: 3px;
+  text-align: center;
+  background-color:green;
+  color:white;
+}
 
-    }
+* {
+  box-sizing: border-box;
+}
 
-    div.gallery:hover {
-      border: 1px solid #777;
-    }
+.responsive {
+  padding: 6px 6px;
+  float: left;
+  width: 24.99999%;
+  
+margin-left:80px;
+}
 
-    div.gallery img {
-      width: 100%;
-      height: 150px;
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
 
-    }
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
 
-    div.desc {
-      padding: 10px;
-      text-align: center;
-      background-color: green;
-      color: white;
-    }
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-    * {
-      box-sizing: border-box;
-    }
-
-    .responsive {
-      padding: 6px 6px;
-      float: left;
-      width: 24.99999%;
-      < !-- box-shadow: 5px 10px 9px #888888;
-
-      border: 6px solid white;
-      -->
-      margin-left: 80px;
-    }
-
-    @media only screen and (max-width: 700px) {
-      .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-      }
-    }
-
-    @media only screen and (max-width: 500px) {
-      .responsive {
-        width: 100%;
-      }
-    }
-
-    .clearfix:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-
-    #c {
-      text-align: center;
-      color: #78b122;
-      margin-top: 20px;
-    }
-  </style>
+ 
+#div {
+  border:1px;
+  margin: 20px 10px 20px 140px;
+  
+ color:#78b122;
+ }
+</style>
 </head>
-
 <body>
-  <!--Navbar -->
-  <div class="mb-5">
-  <nav class="navbar navbar-1 mb-5 navbar-expand-lg navbar-dark rgba-white-slight fixed-top">
-    <div class="container mb-5">
-      <a class="navbar-brand" href="#">
-        <div class="logo">
-          <img src="img/agri_logo1.png">
-        </div>
-      </a>
-      <button class="navbar-toggler" style="background-color: #78b122;" type="button" data-toggle="collapse"
-        data-target="#navbarSupportedContent-4" aria-controls="navbarSupportedContent-4" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
-        <ul class="navbar-nav ml-auto nav-items flex-center">
-          <li class="nav-item">
-            <a class="nav-link m-1" href="team.html" style="color: #78b122;font-weight: 500;">
-              <p class="m-1">TEAM</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link m-1" href="vision.html" style="color: #78b122;font-weight: 500;">
-              <p class="m-1">VISION</p>
-            </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link m-1" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-              aria-expanded="false" style="color: #78b122;font-weight: 500;">
-              <p class="m-1">PRODUCTS</p>
-            </a>
-            <div class="dropdown-menu no-gutters">
-              <a class="dropdown-item" href="product.html"
-                style="color: #78b122;font-weight: 500;font-size:12px;">AGRICULTURAL PRODUCTS</a>
-              <a class="dropdown-item" href="product.html"
-                style="color: #78b122;font-weight: 500;font-size:12px;">AIRFARMS</a>
-              <a class="dropdown-item" href="product.html"
-                style="color: #78b122;font-weight: 500;font-size:12px;">GROWBAGS</a>
-            </div>
-          </li>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link m-1" href="flashapp.html" style="color: #78b122;font-weight: 500;">
-              <p class="m-1">DART</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link m-1" href="services.html" style="color: #78b122;font-weight: 500;">
-              <p class="m-1">SERVICE</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link m-1" href="home.html" style="color: #78b122;font-weight: 500;">
-              <p class="m-1">CONTACT</p>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link">
-              <img src="img/cart5.png">
-            </a>
-          </li>
-        </ul>
-      </div>
+  
+ <div class="container" >
+ <h1 id="para1">SERVICES</h1>
+
+
+  
+   <div class="row">
+   
+       
+   <div class="col-sm-10-md-3-lg-3">
+        
+        
+		<div class="responsive">
+	
+        <div class="gallery" >
+	
+ 
+        <a href="farmplan.html">
+        <img src="img/farmplan.png"  alt="img3"></a>
+		 
+        <div class="desc"><h4>FARM PLAN</h4>Amt: $500</div>
+	   </div>
     </div>
-  </nav>
+    </div>
+	
     
-</div>
-  <!--/.Navbar -->
-  <section class="">
-    <div class="container">
-      <h1 id="para1" class="m-5">SERVICES</h1>
 
-      <div class="all">
-        <div class="responsive">
-          <h4 id="c">FARM PLAN</h4>
-          <div class="gallery">
-            <a href="farmplan.html">
-              <img src="img/farmplan.png" alt="img3" width="600" height="800"></a>
-            </a>
-            <div class="desc">Amt: $500</div>
-
-          </div>
-
+      
+     <div class="col-sm-10-md-3-lg-3">
+     
+       
+		<div class="responsive">
+        <div class="gallery" >
+        <a href="farmset.html">  <img   src="img/farmset.png" alt="img3"> </a>                
+        <div class="desc"> <h4 >FARM SETTING</h4>Amt: $500</div>
         </div>
-
-
-        <div class="responsive">
-          <h4 id="c">FARM SETTING</h4>
-          <div class="gallery">
-            <a href="farmset.html"> <img src="img/farmset.png" alt="img3" width="600" height="800"> </a>
-            <div class="desc">Amt: $500</div>
-          </div>
-        </div>
-
-        <div class="responsive">
-          <h4 id="c">GREEN HUT</h4>
-          <div class="gallery">
-            <a href="greenhut.html"><img src="img/greenhut.png" alt="img3" width="600" height="800"></a>
-            <div class="desc">Amt: $500</div>
-          </div>
-        </div>
-        <div class="responsive">
-          <h4 id="c">FARM SETTING</h4>
-          <div class="gallery">
-            <a href="farmset.html"> <img src="img/farmset.png" alt="img3" width="600" height="800"> </a>
-            <div class="desc">Amt: $500</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="clearfix"></div>
     </div>
-  </section>
-</body>
+	</div>
 
+	
+	
+    <div class="col-sm-10-md-3-lg-3">
+	
+   
+	  <div class="responsive">
+      <div class="gallery">
+      <a href="greenhut.html">
+	  <img src="img/greenhut.png" alt="img3"></a>
+      <div class="desc"> <h4 >GREEN HUT</h4>Amt: $500</div>
+      </div>
+     </div>
+     </div>
+	 
+	 
+
+    <div class="col-sm-10-md-3-lg-3">
+    
+       
+	   <div class="responsive">
+       <div class="gallery" >
+        <a href="farmset.html">  <img   src="img/farmset.png" alt="img3" > </a>                
+        <div class="desc"><h4>FARM SETTING</h4>Amt: $500</div>
+       </div>
+    </div>
+    </div>
+
+
+
+
+</div>
+
+<div class="clearfix"></div>
+
+</div>
+</body>
 </html>
