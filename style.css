@@ -25,7 +25,7 @@ body{
     font-size: 36px;
     font-family: open sans;
     font-weight: 700;
-    color: #000;
+    color:#538742;
     margin: 0;
     padding-bottom: 60px;
     text-align: center;
@@ -86,6 +86,14 @@ body{
     .team .card{
         width: 50%;
         margin-bottom: 30px;
+    }
+}
+@media(max-width: 768px){
+
+   .team .card{
+        min-width: 100%;
+        margin-bottom: 30px;
+	
     }
 }
 @media(max-width: 550px){
