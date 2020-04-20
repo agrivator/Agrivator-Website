@@ -339,4 +339,20 @@ li{
 	.section-button{
 		margin: 50px;
 	}
+	.agri-head{
+		margin-top: 120px;
+		text-align: center;
+		margin-bottom: 80px;
+	}
+	.prod-image{
+		max-width: 100%;
+		max-width: 100%;
+	}
+	.prod-card{
+		background-color: #2f2e41;
+		padding: 30px;
+		margin: 20px;
+		color: #fff;
+		font-weight: 500;
+	}
  }
