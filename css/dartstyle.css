@@ -1,0 +1,32 @@
+
+.mytxt
+{
+    /* background-color: #faa422; */
+    color: #665747;
+}
+
+
+
+  .imgclass
+  {
+      background-color: #ffffff;
+      mix-blend-mode: multiply;
+      margin: 0 auto;
+    width: 250px;
+  }
+
+  .text1{
+    vertical-align: middle;
+    /* padding-bottom: 40px; */
+    /* padding-left: 25%; */
+  }
+
+.qr{
+    /* padding-top: 40px; */
+}
+
+
+.text-descri
+{
+  text-align: justify;
+}
