@@ -184,7 +184,7 @@
   .logo {
     position: relative;
     top: -15px;
-    
+    left: auto;
   }
   
   .cart{
