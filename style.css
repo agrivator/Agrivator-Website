@@ -22,7 +22,9 @@ body{
   
      
 }
-
+.head{
+    margin-top: 10%;
+}
 .team h1{
     font-size: 36px;
     font-family: open sans;
@@ -38,19 +40,20 @@ body{
     float: left;
     background-color: #78b122;
 
-    padding: 0px 15px;
+    padding: 5px 5px 5px 5px;
     
 }
 
-.team .card .box {
+.team .card  {
     padding: 15px;
     background-color: #78b122;
     position: relative;
     border-radius: 5px;
 	transition: margin 1s ease,box-shadow 1s ease;
+    margin: 5px 5px 5px 15px;
 
 }
-.team .card :hover{
+.team .box .card :hover{
     margin-top: -15px;
     box-shadow: 0px 0px 40px #538742;
 }
@@ -89,31 +92,31 @@ body{
 }
 @media(max-width: 991px){
     .team .card{
-        width: 50%;
+        width: 100%;
         margin-bottom: 30px;
-		height:550px;
+		/* height:550px; */
 	
     }
 }
 @media(max-width: 768px){
 
    .team .card{
-        min-width: 100%;
+        width: 100%;
         margin-bottom: 30px;
 	    min-height:100%;
     }
 }
-@media(max-width: 550px){
+@media(max-width: 500px){
     .team .card{
         width: 100%;
-		height:100%;
+		/* height:100%; */
     }
 }
 	@media(max-width: 1200px){
     .team .card{
-        width: 50%;
+        width: 100%;
         margin-bottom: 30px;
-		height:450px;;
+		/* height:450px;; */
 	
     }
 }
