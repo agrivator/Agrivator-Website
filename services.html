@@ -9,78 +9,27 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="css/product.css">
 <style>
+#aa
+{
+  text-align: center;
+  color:#78b122;
+}
  #para1{
   text-align:center;
   margin-bottom:5%;
   color:green;
   margin-top:8%;
  }
-
-div.gallery {
-  border: 5px solid #ccc;
-  margin-top:0.5px;
-  margin-left:25px;
-  margin-bottom:2px;  
-  width:200px;
-  
-  
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: 120px;
  
-}
+#shadow
+{
+   box-shadow: 5px 10px 9px #888888;
+   margin-left:10px;
+   } 
 
-div.desc {
-  padding: 3px;
-  text-align: center;
-  background-color:green;
-  color:white;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 6px 6px;
-  float: left;
-  width: 24.99999%;
-  
-margin-left:80px;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
  
-#div {
-  border:1px;
-  margin: 20px 10px 20px 140px;
-  
- color:#78b122;
- }
+
 </style>
 </head>
 <body>
@@ -155,88 +104,77 @@ margin-left:80px;
     </nav>
     <!--/.Navbar -->
   </section>
-  
-  
- <div class="container" >
- <div id="para1" class="services">
- <h1>SERVICES</h1></div>
-
-   
-  
-   <div class="row">
-   
-       
-   
-        
-        
-		<div class="responsive">
-	         <div class="col-sm-10 col-md-3 col-lg-3">
-
-        <div class="gallery" >
-	
- 
-        <a href="farmplan.html">
-        <img src="img/farmplan.png"  alt="img3"></a>
-		 
-        <div class="desc"><h4>FARM PLAN</h4>Amt: $500</div>
-	   </div>
-    </div>
-    </div>
-	
-    
-
-      
-    
+   <div class="container">
+           <h1 id="para1">SERVICES</h1>
+ <div class="row" id="responsive">
      
-       
-		<div class="responsive">
-		 <div class="col-sm-10 col-md-3 col-lg-3">
-
-        <div class="gallery" >
-        <a href="farmset.html">  <img   src="img/farmset.png" alt="img3"> </a>                
-        <div class="desc"> <h4 >FARM SETTING</h4>Amt: $500</div>
+            <!-- Card -->
+	 <div class="col-sm-8 col-md-3 col-lg-3">
+         <div class="card" id="shadow">
+<!-- Card image -->
+         <a href="farmset.html">
+        <img class="card-img-top" src="img/farmset.png" alt="Card image cap"></a>
+<!-- Card content -->
+        <div class="card-body" id="aa">
+<!-- Title -->
+         <h4 class="card-title"><a>Farmset</a></h4>
+<!-- Text -->
+         <p class="card-text">Amount :$4500</p>
+	     </div>
         </div>
-    </div>
+	 </div>
+	 
+             <!-- Card -->
+			
+    <div class="col-sm-8 col-md-3 col-lg-3">
+	    <div class="card" id="shadow">
+<!-- Card image -->
+         <a href="farmplan.html">
+         <img class="card-img-top" src="img/farmplan.png" alt="Card image cap"></a>
+<!-- Card content -->
+         <div class="card-body" id="aa">
+<!-- Title -->
+         <h4 class="card-title"><a>Farm plan</a></h4>
+<!-- Text -->
+         <p class="card-text">Amount :$4500</p>
+	    </div>
+		</div>
+	 </div>
+	
+
+             <!-- Card -->
+	 <div class="col-sm-8 col-md-3 col-lg-3">		 
+         <div class="card"  id="shadow">
+<!-- Card image -->
+         <a href="greenhut.html">
+         <img class="card-img-top" src="img/greenhut.png" alt="Card image cap"></a>
+<!-- Card content -->
+         <div class="card-body" id="aa">
+<!-- Title -->
+         <h4 class="card-title"><a>Green hut</a></h4>
+<!-- Text -->
+          <p class="card-text">Amount :$4500</p>
+	     </div>
+         </div>
+	 </div>
+		     <!-- Card -->
+	 <div class="col-sm-8 col-md-3 col-lg-3">
+         <div class="card" id="shadow" >
+<!-- Card image -->
+         <a href="farmplan.html">
+         <img class="card-img-top" src="img/farmplan.png" alt="Card image cap"></a>
+<!-- Card content -->
+         <div class="card-body" id="aa">
+<!-- Title -->
+         <h4 class="card-title" id="ch"><a>Farm plan</a></h4>
+<!-- Text -->
+         <p class="card-text">Amount :$4500</p>
+	    </div>
+		</div>
 	</div>
-
-	
-	
-    
-	
-   
-	  <div class="responsive">
-	   <div class="col-sm-10 col-md-3 col-lg-3">
-
-      <div class="gallery">
-      <a href="greenhut.html">
-	  <img src="img/greenhut.png" alt="img3"></a>
-      <div class="desc"> <h4 >GREEN HUT</h4>Amt: $500</div>
-      </div>
-     </div>
-     </div>
-	 
-	 
-
-    
-    
-       
-	   <div class="responsive">
-	    <div class="col-sm-10 col-md-3 col-lg-3">
-
-       <div class="gallery" >
-        <a href="farmset.html">  <img   src="img/farmset.png" alt="img3" > </a>                
-        <div class="desc"><h4>FARM SETTING</h4>Amt: $500</div>
-       </div>
-    </div>
-    </div>
-
-
-
-
 </div>
 
-<div class="clearfix"></div>
-
+		 
 </div>
 </body>
 </html>
