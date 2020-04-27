@@ -30,3 +30,8 @@
 {
   text-align: justify;
 }
+@media (min-width: 992px) {
+  body{
+    overflow-y: hidden;
+  }
+}
