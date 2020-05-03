@@ -55,8 +55,9 @@ li{
 }
 .card{
 
-	background-color: #2f2e41;
+	/* background-color: #2f2e41; */
 	/* background-color: #ffbf55; */
+	border: none;
 }
 .card-body{
 	color: white;

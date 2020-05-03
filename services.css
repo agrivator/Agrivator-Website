@@ -148,10 +148,21 @@ button:hover {
   clear: both;
   display: table;
 }
-
+#para1{
+  padding-top: 8%;
+}
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
    .resetbtn.signupbtn {
     width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .card-ser{
+    margin: 5%;
+  }
+  #para1{
+    padding-top: 20%;
+    font-size: 28px;
   }
 }
