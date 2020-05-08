@@ -1,27 +1,40 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>team section</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="css/product.css" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Team</title>
+  <!-- MDB icon -->
+  <!-- <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon"> -->
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="css/product.css" type="text/css">
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
-
 <body>
-    <section id="nav-1">
+    <section id="nav-1" class="row">
         <!--Navbar -->
         <nav class="navbar navbar-1 navbar-expand-lg navbar-light fixed-top " style="border: none;" >
             <div class="container">
                 <a class="navbar-brand" href="home.html">
-                    <div class="logo">
-                        <img src="img/agri_logo1.png">
+                    <div>
+                        <img class="logo" src="img/Logo with Side Text - White.png">
                     </div>
                 </a>
                 <button class="navbar-toggler" style="background-color: white;" type="button" data-toggle="collapse"
@@ -30,7 +43,7 @@
                     <span class="navbar-toggler-icon "></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
-                    <ul class="navbar-nav ml-auto nav-items flex-center">
+                    <ul class="navbar-nav ml-auto nav-items">
                         <li class="nav-item">
                             <a class="nav-link m-1" href="team.html" style="color: #78b122;font-weight: 500;">
                                 <p class="m-1">TEAM</p>
@@ -41,20 +54,10 @@
                                 <p class="m-1">VISION</p>
                             </a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link m-1" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false" style="color: #78b122;font-weight: 500;">
-                                <p class="m-1">PRODUCTS</p>
+                        <li class="nav-item">
+                            <a class="nav-link m-1" href="product.html" style="color: #78b122;font-weight: 500;">
+                                <p class="m-1">PRODUCT</p>
                             </a>
-                            <div class="dropdown-menu no-gutters">
-                                <a class="dropdown-item" href="product.html"
-                                    style="color: #78b122;font-weight: 500;font-size:12px;">AGRICULTURAL PRODUCTS</a>
-                                <a class="dropdown-item" href="product.html"
-                                    style="color: #78b122;font-weight: 500;font-size:12px;">AIRFARMS</a>
-                                <a class="dropdown-item" href="product.html"
-                                    style="color: #78b122;font-weight: 500;font-size:12px;">GROWBAGS</a>
-                            </div>
-                        </li>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link m-1" href="services.html" style="color: #78b122;font-weight: 500;">
@@ -77,13 +80,13 @@
         </nav>
         <!--/.Navbar -->
     </section>
-    <section class="team">
+    <section class="team row">
         <div class="container">
-            <div class="head">
+            <div class="head py-5">
                 <h1>Our Team</h1>
             </div>
             <div class="row">
-                <div class="card col-sm hoverable hover">
+                <div class="card col-sm hoverable hover border-0">
                     <div class="box">
                         <img src="img/ba1.jpg" alt="team img" />
                         <h4>SARATH S</h4>
@@ -96,7 +99,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card col-sm">
+                <div class="card col-sm border-0">
                     <div class="box">
                         <img src="img/ba2.jpg" alt="team img" />
                         <h4>IRENE TENISON</h4>
@@ -110,7 +113,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card col-sm">
+                <div class="card col-sm border-0">
                     <div class="box">
                         <img src="img/ba3.jpg" alt="team img" />
                         <h4>CEDRIC JACKSON</h4>
@@ -122,7 +125,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card col-sm">
+                <div class="card col-sm border-0">
                     <div class="box">
                         <img src="img/ba4.jpg" alt="team img" />
                         <h4>ARUN S KUMAR</h4>
@@ -137,10 +140,10 @@
             </div>
         </div>
     </section>
-
-  <div class="footer" style="position: relative; top: 50px; width: 100%;">
+<section class="row" style="overflow: hidden;">
+  <div class="footer" style="position: relative; top:50px; width: 100%;">
     <footer class="text-center">
-      <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+      <a class="up-arrow" href="#nav-1" data-toggle="tooltip" title="TO TOP">
         <i class="fas fa-angle-up"></i>      </a><br><br>
       <p> <a href="team.html" data-toggle="tooltip" title="Visit team page">Team</a></p>
       <p><a href="product.html" data-toggle="tooltip" title="Visit products page">Products </a></p>
@@ -179,7 +182,17 @@
       <!-- Social buttons -->
     </footer>
   </div>
-
+</section>
 </body>
 
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
 </html>

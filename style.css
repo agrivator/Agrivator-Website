@@ -12,7 +12,9 @@ body{
     position: relative;
     min-height: 1px;
 }
-
+.row{
+    width: 100%;
+}
 .team{
     min-height: 100vh;
     padding: 60px 15px;
