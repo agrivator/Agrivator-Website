@@ -55,7 +55,7 @@ li{
 }
 .card{
 
-	/* background-color: #2f2e41; */
+	/* background-color: #fff; */
 	/* background-color: #ffbf55; */
 	border: none;
 }
@@ -73,7 +73,7 @@ li{
 	display: inline-block;
 	font-weight: 400;
 	color: white;
-	background-color: #2f2e41;
+	background-color: #fff;
 	text-align: center;
 	vertical-align: middle;
 	cursor: pointer;
@@ -206,7 +206,7 @@ li{
 		max-width: 100%;
 	}
 	.prod-card{
-		background-color: #2f2e41;
+		background-color: #fff;
 		padding-left: 40px;
 		padding-bottom: 30px;
 		padding-right: 40px;
@@ -386,7 +386,7 @@ li{
 		width: 160px;
 	}
 	.prod-card{
-		background-color: #2f2e41;
+		background-color: #fff;
 		padding: 20px;
 		margin: 50px;
 		color: #fff;
@@ -459,7 +459,7 @@ li{
 		max-width: 100%;
 	}
 	.prod-card{
-		background-color: #2f2e41;
+		background-color: #fff;
 		padding: 30px;
 		margin: 20px;
 		border-radius: 20px;
@@ -487,9 +487,9 @@ li{
 		padding: 40px;
 	}
 	.prod-card{
-		background-color: #2f2e41;
+		background-color: #fff;
 		padding: 30px;
-		color: #fff;
+		color: #2f2e41;
 		font-weight: 500; 
 		min-width: 70%;
 		margin-top: 30px;
@@ -497,7 +497,6 @@ li{
 		 margin-left: 200px;
 		 margin-right: 200px;
 		 border-radius: 20px;
-		 box-shadow: #78b12269 10px 10px;
 	}
 	.air-pdt{
 		margin-top: auto;
@@ -505,14 +504,10 @@ li{
 	}
 	.prod-detail{
 		margin-top: auto;
-		margin-bottom: auto;
+        margin-bottom: auto;
+        color: #2f2e41;
 	}
 	.logo{
 		width: 180px;
 	}
-	.shadow {
-		-moz-box-shadow:    inset 0 0 10px #78b122;
-		-webkit-box-shadow: inset 0 0 10px #78b122;
-		box-shadow:         inset 0 0 10px #78b122;
-	 }
  }
