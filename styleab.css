@@ -123,6 +123,10 @@ h1{
     .right{
         min-width: 100%;
     }
+    .left-text{
+        margin: 30px;
+    }
+
 }
 @media (min-width: 768px) and (max-width: 992px){
 	.box1{
