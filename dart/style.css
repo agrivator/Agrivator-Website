@@ -1,0 +1,38 @@
+.bg-primary-1{
+    background-color: #3FA764;
+}
+
+.active {
+    background-color: white;
+    border-radius: 10px;
+    color: black !important;
+}
+
+.space-20{
+    width: 100%;
+    height: 20px;
+}
+
+.space-50{
+    width: 100%;
+    height: 50px;
+}
+
+.card-1{
+    padding: 20px;
+    box-shadow: 0px 0px 10px  #e1e1e1;
+    border-radius: 10px;
+    color: #8E8080;
+}
+
+.card-1 input[type=text]{
+  
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.card-1 input[type=password]{
+  
+    border: none;
+    border-bottom: 1px solid grey;
+}
