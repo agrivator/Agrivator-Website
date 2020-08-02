@@ -108,7 +108,8 @@ li{
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
     color: #fff !important;
-    background-color: #538742!important;
+	background-color: #538742!important;
+	border-radius: .2em;
   }
   .footer {
     position: relative;

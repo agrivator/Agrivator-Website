@@ -18,11 +18,10 @@
   <link rel="stylesheet" href="bootstrap-3.3.3-dist/css/bootstrap-responsive.css">
 </head>
 
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" style="font-family: -apple-system, BlinkMacSystemFont, sans-serif;">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-
+<section>
   <div class="jumbotron text-center">
-
     <h1>What we are?</h1>
     <p style="font-weight: 400;">We are a startup which combines modern techniques with traditional methods to increase productivity of crops. We
       aim to bring a change in the field of agriculture by efficient combination of technologies like artificial
@@ -145,26 +144,26 @@
 
   <div class="center">
 
-      <div class="container-fluid " style="background-image: url(img/contact.jpg); position: relative; top: 300px;">
+      <div class="container-fluid" style="background-image: url(img/contact.jpg); position: relative; top: 300px;">
         <h2 class="text-center">CONTACT</h2>
         <div class="row">
           <div class="col-sm-6">
-            <p>Contact us and we'll get back to you within 24 hours.</p>
-            <p><span class="glyphicon glyphicon-map-marker"></span> Kollam , Kerala</p>
-            <p><span class="glyphicon glyphicon-phone"></span> +91 9061714290</p>
-            <p><span class="glyphicon glyphicon-envelope"></span> agrivator@gmail.com</p>
+            <p style="color: #242525;">Contact us and we'll get back to you within 24 hours.</p>
+            <p style="color: #242525;"><span class="glyphicon glyphicon-map-marker"></span> Kollam , Kerala</p>
+            <p style="color: #242525;"><span class="glyphicon glyphicon-phone"></span> +91 9061714290</p>
+            <p style="color: #242525;"><span class="glyphicon glyphicon-envelope"></span> agrivator@gmail.com</p>
           </div>
           <div class="col-sm-6">
             <div class="row">
               <div class="col-sm-6 form-group">
-                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required style="border-color:#78b122; border-radius: .5em;">
               </div>
               <div class="col-sm-6 form-group">
-                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required style="border-color:#78b122; border-radius:.5em;">
               </div>
             </div>
-            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-            <div class="row">
+            <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5" style="border-color:#78b122; border-radius: .5em;"></textarea><br>
+            <div class="row mb-1">
               <div class="col-sm-12 form-group">
                 <button class="btn btn-default pull-right" type="submit">Send</button>
               </div>
@@ -229,10 +228,10 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
       <!-- Social buttons -->
     </footer>
   </div>
+</section>
 
-
-
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <section>
+  <nav class="navbar shadow navbar-default navbar-l navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -263,6 +262,7 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
       </div>
     </div>
   </nav>
+</section>
 
   <!--<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 
