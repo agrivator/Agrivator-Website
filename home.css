@@ -7,15 +7,7 @@
   width: 100%;
   align-self: auto;
 }
-@keyframes onam{
-  from {background-color:white;}
-  to{background-color:rgb(247,247,247);}
-}
-#onam{
-  width: 100vw;
-  animation-name:onam;
-  animation-duration:8s;
-}
+
 
   .panel {
     border: 1px solid #538742;
