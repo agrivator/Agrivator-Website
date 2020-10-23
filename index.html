@@ -8,9 +8,9 @@
         <span id='logo'><img src='./logo.png'></span>
         <div>
             <span id='flower'><img src='./flower.png'></span>
+            <span id='ground'><img src='./ground.png'></span>
             <h1>We are still sprouting...</h1>
         </div>
-        <span id='ground'><img src='./ground.png'></span>
     </div>
 </body>
 <style>
@@ -23,37 +23,33 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 38vh; 
+        margin-top: 20%; 
     }
     .container > div > h1{
         color: #263238;
         font-weight: 500;
         letter-spacing: 0.04em;
         font-size: 2em;
+        margin-top: 25px;
     }
     #logo{
         position: absolute;
         left: 0%;
         top: 0%;
     }
+    #ground > img{
+      width: 100vw;
+    }
     #flower > img{
-        margin-bottom: 15px;
+        margin-bottom: -30px;
     }
-    #ground{
-        position: absolute;
-        top: 55%;
-        left: 0%;
-        width: 100vw;
-    }
+  
     @media only screen and (max-width: 768px) {
         #logo > img{
-            width: 50%;
+          width: 50%;
         }
-        #flower > img{
-            height: 20vh;
-        }
-        #ground > img{
-            width: 100vw;
+        .container > div {
+          margin-top: 50%;
         }
     }
 
