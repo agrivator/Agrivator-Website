@@ -39,13 +39,6 @@ nav ul li a {
   font-size: 15px;
   text-transform: uppercase;
   padding: 5px 0;
-  text-decoration: none;
-}
-
-nav ul li a:hover,
-a:focus {
-  text-decoration: none;
-  color: #098f2e;
 }
 
 nav ul li a::before {
@@ -200,14 +193,4 @@ label #cancel {
   position: fixed;
   top: 0;
   width: 100%;
-}
-
-#product {
-  background: url(img/products.png);
-  background-size: cover;
-  /* background-position: right; */
-  display: flex;
-  /* justify-content: space-between; */
-  align-items: center;
-  min-height: 100vh;
 }
