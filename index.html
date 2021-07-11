@@ -7,9 +7,43 @@
   <link rel="icon" href="img/agri logo.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   <link rel="stylesheet" href="style.css"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>  
   <title>Agrivator</title>
 </head>
 <body>
+  <div id="navbar">
+  <nav>
+    <input type="checkbox" id = "check">
+    <label for="check">
+      <i class="fas fa-bars" id = "btn"></i>
+      <i class="fas fa-times" id = "cancel"></i>
+
+    </label>  
+    <img src="img/Logo_with_Side_Text_-_White-removebg-preview 1.png">
+  <ul>
+  <li><a href="#">Vision</a></li>
+  <li><a href="#">Product</a></li>
+  <li><a href="#">Service</a></li>
+  <li><a href="#">Team</a></li>
+  <li><a href="#">Contact</a></li>
+</ul>
+</nav>
+</div>
+
+<script>
+  window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
   
 </body>
 </html>
