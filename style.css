@@ -76,8 +76,6 @@ label #cancel {
 
 .home {
   display: flex;
-  width: 100%;
-  height: 0;
   color: #098f2e;
   font-size: 20px;
 }
@@ -91,11 +89,31 @@ label #cancel {
   margin-left: -15px;
 }
 
-.bg_image img {
+.bg_image1 img {
   float: right;
 }
 
-@media (max-width: 1118px) {
+.vision {
+  display: flex;
+  color: #098f2e;
+  font-size: 20px;
+  text-align: right;
+}
+
+.vision p {
+  margin-right: 10%;
+}
+
+.bg_image2 img {
+  float: left;
+  width: 100%;
+}
+
+.heading {
+  font-size: 64px;
+}
+
+@media (min-width: 944px) {
   nav img {
     left: 8%;
   }
@@ -148,9 +166,14 @@ label #cancel {
     display: block;
   }
 
-  .home {
+  .home,
+  .vision {
     display: inline;
     font-size: 17px;
+  }
+
+  .heading {
+    font-size: 45px;
   }
 
   .text img {
@@ -159,7 +182,8 @@ label #cancel {
     margin-left: -10px;
   }
 
-  .bg_image img {
+  .bg_image1 img,
+  .bg_image2 img {
     width: 100%;
     height: auto;
   }
