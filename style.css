@@ -14,9 +14,8 @@ body {
 nav {
   height: 70px;
   background: #ecf7ea;
-  position: relative;
-  z-index: 1;
 }
+
 nav img {
   width: 150px;
   position: absolute;
@@ -115,6 +114,8 @@ label #cancel {
 
 .heading {
   font-size: 64px;
+  color: #098f2e;
+  text-transform: uppercase;
 }
 
 .video {
@@ -123,18 +124,19 @@ label #cancel {
   background-size: cover;
   text-align: center;
   padding: 4%;
-  position: relative;
-  z-index: -1;
 }
 
-.video video {
+video {
   width: 980px;
   height: 550px;
   object-fit: cover;
   border-radius: 10px;
   filter: opacity(75%);
-  position: relative;
-  z-index: -1;
+}
+
+.services {
+  margin-top: 3%;
+  text-align: center;
 }
 
 @media (min-width: 944px) {
