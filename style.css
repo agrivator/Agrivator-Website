@@ -132,6 +132,7 @@ video {
   object-fit: cover;
   border-radius: 10px;
   filter: opacity(75%);
+  z-index: 0;
 }
 
 .services {
@@ -234,5 +235,16 @@ video {
 .sticky {
   position: fixed;
   top: 0;
+  width: 100%;
+}
+
+
+header{
+
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  margin: auto;
   width: 100%;
 }
