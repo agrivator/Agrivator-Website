@@ -14,6 +14,8 @@ body {
 nav {
   height: 70px;
   background: #ecf7ea;
+  position: relative;
+  z-index: 1;
 }
 nav img {
   width: 150px;
@@ -78,6 +80,7 @@ label #cancel {
   display: flex;
   color: #098f2e;
   font-size: 20px;
+  margin-bottom: -4%;
 }
 
 .text {
@@ -98,6 +101,7 @@ label #cancel {
   color: #098f2e;
   font-size: 20px;
   text-align: right;
+  margin-top: 3%;
 }
 
 .vision p {
@@ -111,6 +115,26 @@ label #cancel {
 
 .heading {
   font-size: 64px;
+}
+
+.video {
+  background-image: url("./img/video_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 4%;
+  position: relative;
+  z-index: -1;
+}
+
+.video video {
+  width: 980px;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 10px;
+  filter: opacity(75%);
+  position: relative;
+  z-index: -1;
 }
 
 @media (min-width: 944px) {
@@ -127,6 +151,14 @@ label #cancel {
   }
   nav ul li a {
     font-size: 17px;
+  }
+  .video {
+    display: inline-block;
+  }
+
+  .video video {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -184,6 +216,14 @@ label #cancel {
 
   .bg_image1 img,
   .bg_image2 img {
+    width: 100%;
+    height: auto;
+  }
+  .video {
+    display: inline-flex;
+  }
+
+  .video video {
     width: 100%;
     height: auto;
   }
