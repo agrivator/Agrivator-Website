@@ -146,6 +146,69 @@ video {
   margin-top: 3%;
   text-align: center;
 }
+.itemgrid {
+  width: 90%;
+  margin: 3% auto 3% auto;
+  /* margin-top: 40px;
+  margin-bottom: 20px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  justify-content: space-between;
+}
+
+.itemcard {
+  height: 300px;
+  width: 250px;
+  margin: 0 auto 8%;
+  padding-bottom: 2%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease-in-out;
+  color: #098f2e;
+}
+
+.services .itemcard:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  background-color: #098f2e;
+  cursor: pointer;
+}
+
+.item-img {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.item-text {
+  text-align: center;
+  font-size: 24px;
+}
+
+.team {
+  text-align: center;
+}
+
+.team .item-img {
+  height: 75%;
+}
+
+.item-subtext {
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.bg {
+  background-image: url("./img/contact_bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-position: bottom;
+}
 
 /* @media (min-width: 944px) {
   nav img {
@@ -238,6 +301,10 @@ video {
     width: 100%;
     height: auto;
   }
+
+  /* .bg {
+    background-size: 100% 85%;
+  } */
 }
 
 .sticky {
@@ -246,9 +313,7 @@ video {
   width: 100%;
 }
 
-
-header{
-
+header {
   position: relative;
   top: 0;
   left: 0;
