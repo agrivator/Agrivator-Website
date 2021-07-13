@@ -8,7 +8,7 @@
   font-family: "Reem Kufi", sans-serif;
 }
 body {
-  background: #ecf7ea;
+  background: #ecf7ea !important;
 }
 
 nav {
@@ -40,6 +40,8 @@ nav ul li a {
   font-size: 15px;
   text-transform: uppercase;
   padding: 5px 0;
+  text-decoration: none !important;
+
 }
 
 nav ul li a::before {
@@ -58,6 +60,9 @@ nav ul li a::before {
 nav ul li a:hover:before {
   transform: scaleX(1);
   transform-origin: left;
+}
+nav ul li a:hover{
+  color: #098f2e;
 }
 
 label #btn,
@@ -116,6 +121,8 @@ label #cancel {
   font-size: 64px;
   color: #098f2e;
   text-transform: uppercase;
+  font-weight: 600;
+
 }
 
 .video {
@@ -140,11 +147,11 @@ video {
   text-align: center;
 }
 
-@media (min-width: 944px) {
+/* @media (min-width: 944px) {
   nav img {
     left: 8%;
   }
-}
+} */
 
 @media (max-width: 944px) {
   nav img {
@@ -167,7 +174,8 @@ video {
 
 @media (max-width: 860px) {
   label #btn {
-    display: block;
+    display: block ;
+    /* float: right !important; */
   }
   ul {
     position: fixed;
@@ -247,4 +255,94 @@ header{
   z-index: 99;
   margin: auto;
   width: 100%;
+}
+
+#product{
+  background: url(img/products.png);
+  background-size: cover;
+    /* background-position: right; */
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    min-height: 100vh;
+    
+}
+.product{
+  width: 100%;
+  /* height: 30vh; */
+  /* display: flex; */
+  
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+  font-weight: 600;
+}
+.product .heading{
+  margin-top: 3%;
+  text-align: center;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: white;
+}
+
+
+.carousel-item{
+  background-color: rgba(49, 71, 46, 0.58);
+ /* width: 300px; */
+  height: 60vh;
+  border-radius: 20px;
+  text-align: center;
+
+}
+
+.carousel{
+  /* align-items: center;
+  justify-content: center; */
+  margin-left: 15%;
+border-radius: 20px;
+  margin-right: 15%;
+  /* width: 100%; */
+}
+
+.heading2{
+  margin-top: 3%;
+  font-size: 10 !important;
+  /* text-transform: uppercase; */
+}
+
+.column {
+  float: left;
+  width: 50%;
+  
+}
+.column p {
+  padding: 10% 5% 5% 25%;
+  text-align: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column img{
+height: 30vh;
+padding-right: 10%;
+padding-top: 8%;
+}
+
+.more button{
+  padding: 8px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 10px !important;
+  border-radius: 5px;
+  background-color: #C2EAB4;
+  color: #295A48;
+}
+
+
+@media (max-width: 860px) {
+  
 }
