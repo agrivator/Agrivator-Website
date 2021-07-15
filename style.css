@@ -791,8 +791,51 @@ font-style: normal;
 
 
 
+@media (max-width: 768px){
 
+  .column {
+    float: none;
+    width: 100%;
+    
+  }
+  .column p {
+    padding: 3% 3% 3% 3%;
+    /* width: 100%; */
+    text-align: center;
+  }
+  
+  .row:after {
+    /* content: ""; */
+    display: block;
+    /* clear: both; */
+  }
+  .column img{
+  height: 33vh !important;
+  padding-right: 10% ;
+  padding-left: 10%;
+  padding-top: 8%;
+  width: 80%;
+  }
+  .carousel-inner{
+    /* width: 70%; */
+    height: 500px;
+  }
+  .carousel{
+    width: 70%;
+    height: 500px;
+  }
+  .carousel-item{
+    height: 500px;
+  }
+  .carousel-item .heading2{
+    font-size: 1.5em !important;
+    padding: 20px; ;
+  }
+  
 
+}
+
+@media (max-width: 768px){}
 
 
 
