@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+html{
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -92,14 +95,27 @@ label #cancel {
 /*--Home-- */
 .home {
   display: flex;
+  /* left: 50%; */
   color: #098f2e;
   font-size: 20px;
-  margin-bottom: -4%;
+  margin-bottom: 10%;
+  width: 100%;
 }
 
 .text {
-  margin-top: 20%;
-  margin-left: 10%;
+  margin-top: 15%;
+  margin-left: 5%;
+  width: 50%;
+
+}
+
+.bg_image1 img{
+
+  float: right;
+  width: 70%;
+  height: auto;
+  margin-top: 30%;
+  margin-right: 20%;
 }
 
 .text img {
@@ -108,20 +124,27 @@ label #cancel {
 
 
 /*--video--*/
-.video {
+#video {
   background-image: url("./img/video_bg.png");
   background-repeat: no-repeat;
-  /* display: cover; */
-  background-size: cover !important;
-  /* width: 100%; */
-  /* background-size: cover; */
+  background-size: cover;
+  width: 100%;
   text-align: center;
-  padding: 4%;
+  
+
+  /* display: flex; */
+
+  /* padding: 4%; */
 }
 
 video {
-  width: 100vh !important;
-  height: 50vh !important;
+  width:80% !important;
+  max-width: 100vh;
+  height: auto !important;
+  margin: 5% auto 5% auto;
+  max-height: 80vh;
+
+ /* margin: auto; */
   object-fit: cover;
   border-radius: 10px;
   filter: opacity(75%);
@@ -134,11 +157,12 @@ video {
   color: #098f2e;
   font-size: 20px;
   text-align: right;
-  margin-top: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .vision p {
-  margin-right: 10%;
+  margin-right: 7%;
   /* font-weight: 300; */
 }
 
@@ -461,7 +485,7 @@ video {
   top: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5%;
+  margin-bottom: 0%;
   text-align: center;
 }
 
@@ -576,13 +600,14 @@ form div {
 .btn {
   display: block;
   background: #ecf7ea;
-  padding: 14px 0;
+  padding: 15px 50px;
   border-radius: 5px;
   color: #098f2e;
   cursor: pointer;
   max-width: 30%;
-  margin-top: 11px;
+  margin-top: 60px;
   font-weight: 600;
+  margin-bottom: 30px;
 }
 
 .btn:hover {
@@ -612,6 +637,7 @@ form div {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
+
   text-align: left;
   font: normal 16px sans-serif;
   padding: 25px 50px;
@@ -694,14 +720,15 @@ form div {
   nav ul li a {
     font-size: 17px;
   }
-  .video {
+  /* .video {
     display: inline-block;
+    width: 100%;
   }
 
   .video video {
-    width: 100%;
+    width: 50% !important;
     height: auto;
-  }
+  } */
 }
 
 @media (max-width: 860px) {
@@ -714,7 +741,7 @@ form div {
     width: 100%;
     height: 100vh;
     background: #098f2e;
-    top: 80px;
+    top: 70px;
     left: -100%;
     transition: all 0.5s;
     text-align: center;
@@ -726,6 +753,9 @@ form div {
   }
   nav ul li a {
     font-size: 20px;
+    color: #ecf7ea;
+  }
+  nav ul li a:hover {
     color: #ecf7ea;
   }
   nav ul li a::before {
@@ -741,10 +771,29 @@ form div {
     display: block;
   }
 
-  .home,
+
   .vision {
     display: inline;
+    /* align-items: center; */
+    text-align: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     font-size: 17px;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+
+  }
+  .vision p{
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .home{
+    display: block;
+    font-size: 17px;
+    align-items: center;
+    justify-self: center;
+    width: 100%;
   }
 
   .heading {
@@ -756,26 +805,39 @@ form div {
     width: 50%;
 
     height: auto;
-    margin-left: -10px;
+    margin-left: 0px;
   }
   .text {
     text-align: center;
+    width: 80%;
+    padding: 3px;
+    margin-left: auto ;
+    margin-right: auto;
   }
 
-  .bg_image1 img,
+  
   .bg_image2 img {
-    width: 100%;
-    height: auto;
-  }
-  .video {
-    display: inline-flex;
+    display: none;
   }
 
-  .video video {
-    width: 100%;
-    height: auto;
+  .bg_image1 img{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /* margin-left:20%; */
+    margin-right: 20%;
+    /* width: auto; */
   }
+  /* #video {
+    height: 200px !important;
+    padding: 0px !important;
+  } */
 
+  /* .video video {
+    height: auto;
+  } */
+#home{
+  padding-bottom: 60%;
+}
   /* .bg {
     background-size: 100% 85%;
   } */
