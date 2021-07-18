@@ -177,7 +177,7 @@ video {
 
 /* services */
 .services {
-  margin-top: 10%;
+  margin-top: 6%;
   text-align: center;
 }
 .itemgrid {
@@ -206,7 +206,6 @@ video {
   transition: all 0.3s ease-in-out;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
   background-color: #098f2e;
-  cursor: pointer;
 }
 
 .item-img {
@@ -240,7 +239,7 @@ video {
 .bg {
   background-image: url("./img/contact_bg.png");
   background-repeat: no-repeat;
-  background-size: 100% 75%;
+  background-size: cover;
   background-position: bottom;
 }
 
@@ -479,11 +478,12 @@ video {
   position: relative;
   width: 50%;
   top: 50%;
-  margin-top: 10%;
+  margin-top: 8%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0%;
   text-align: center;
+  padding-top: 5%;
 }
 
 form {
@@ -770,11 +770,10 @@ form div {
     display: block;
   }
 
-  #mybtn{
+  #mybtn {
     bottom: 5% !important;
     /* right: 20% !important; */
     /* left: 75% !important; */
-
   }
   .vision {
     display: inline;
