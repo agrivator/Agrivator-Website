@@ -273,7 +273,7 @@ video {
 
 .carousel-item {
   background-color: rgba(49, 71, 46, 0.58);
-  height: 80vh;
+  height: 60vh;
   border-radius: 20px;
   text-align: center;
 }
@@ -939,14 +939,14 @@ form div {
   }
   .carousel-inner {
     /* width: 70%; */
-    height: 120vh;
+    height: 100vh;
   }
   .carousel {
     width: 70%;
-    height: 120vh;
+    height: 100vh;
   }
   .carousel-item {
-    height: 120vh;
+    height: 100vh;
   }
   .carousel-item .heading2 {
     font-size: 1.5em !important;
@@ -988,7 +988,7 @@ form div {
   float: right;
   padding-right: 35%;
   padding-left: 10%;
-  padding-top: 8%;
+  padding-top: 0%;
 }
 
 .Actuators-img {
