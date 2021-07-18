@@ -770,6 +770,12 @@ form div {
     display: block;
   }
 
+  #mybtn{
+    bottom: 5% !important;
+    /* right: 20% !important; */
+    /* left: 75% !important; */
+
+  }
   .vision {
     display: inline;
     text-align: center;
@@ -1013,11 +1019,11 @@ form div {
   bottom: 20%;
   float: right;
   right: 4%;
-  left: 90%;
-  max-width: 60px;
-  height: 60px;
+  /* left: 90%; */
+  max-width: 40px;
+  height: 40px;
   width: 100%;
-  font-size: 20px;
+  font-size: 15px;
   border-color: rgba(85, 85, 85, 0.2);
   background-color: #098f2e;
   opacity: 60%;
