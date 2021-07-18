@@ -18,17 +18,17 @@
   <nav>
     <input type="checkbox" id = "check">
     <label for="check">
-      <i class="fas fa-bars" id = "btn"></i>
-      <i class="fas fa-times" id = "cancel"></i>
+      <i class="fas fa-bars" id = "btn" onclick="opennav()"></i>
+      <i class="fas fa-times" id = "cancel" onclick="closenav()"></i>
 
     </label>  
     <img src="img/Logo_with_Side_Text_-_White-removebg-preview 1.png">
-  <ul>
-  <li><a href="#vision">Vision</a></li>
-  <li><a href="#product">Product</a></li>
-  <li><a href="#services">Service</a></li>
-  <li><a href="#team">Team</a></li>
-  <li><a href="#contact">Contact</a></li>
+  <ul id="navlist">
+  <li><a href="#vision" onclick="closelist()">Vision</a></li>
+  <li><a href="#product" onclick="closelist()">Product</a></li>
+  <li><a href="#services" onclick="closelist()">Service</a></li>
+  <li><a href="#team" onclick="closelist()">Team</a></li>
+  <li><a href="#contact" onclick="closelist()">Contact</a></li>
 </ul>
 </nav>
 </div>
@@ -61,7 +61,7 @@
 </section>
 
 <!-- Vision -->
-<section id = "vision">
+<section id ="vision">
 <div class="vision">
   <div class="bg_image2">
     <img src="img/image2.png">
@@ -238,19 +238,19 @@
     <div class="itemgrid" id="itemgrid">
       <div class="itemcard">
         <img src="img/farmsetting.jpg" alt="" class="item-img">
-        <p class="item-text">Service 1</p>
+        <p class="item-text">Farm Consulting</p>
       </div>
       <div class="itemcard">
         <img src="img/farmsetting.jpg" alt="" class="item-img">
-        <p class="item-text">Service 2</p>
+        <p class="item-text">Farm automation</p>
       </div>
       <div class="itemcard">
         <img src="img/farmsetting.jpg" alt="" class="item-img">
-        <p class="item-text">Service 3</p>
+        <p class="item-text">Power tools development</p>
       </div>
       <div class="itemcard">
         <img src="img/farmsetting.jpg" alt="" class="item-img">
-        <p class="item-text">Service 4</p>
+        <p class="item-text">Aquaponics and hydroponics systems</p>
       </div>
     </div>
   </div>
@@ -346,9 +346,35 @@
 </footer>
 </section>
 
-
+<button id="myBtn"><a href="#home" ><i class="fas fa-arrow-up"></i></a></button>
 <script>
-  window.onscroll = function() {myFunction()};
+
+
+window.onscroll = function() {myFunction()};
+// function closelist(){
+//   // $("#check").attr("checked", false);
+//   document.getElementById("cancel").style.display="none";
+//   document.getElementById("btn").style.display="block";
+//   // document.getElementById("check").checked="false";
+//   // document.getElementById("navlist").style.transition="left 0.5s";
+//   document.getElementById("navlist").style.display="none";
+  
+  
+// }
+// function closenav(){
+//   document.getElementById("navlist").style.display="none"
+//   document.getElementById("cancel").style.display="none";
+//   document.getElementById("btn").style.display="block";
+  
+// }
+// function opennav(){
+//   document.getElementById("navlist").style.display="block";
+//   document.getElementById("navlist").style.transition="left 0.5s";
+//   document.getElementById("navlist").style.width="100%";
+//   document.getElementById("cancel").style.display="block";
+//   document.getElementById("btn").style.display="none";
+  
+// }
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
